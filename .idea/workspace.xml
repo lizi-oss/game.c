@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8a3e8c5-cc1d-4ec6-af90-cc4d3da7dbe6" name="更改" comment="捣鼓半天发现是没有变成源代码文件我说我不能这么简单都做&#10;错，有点累了。">
+      <change beforePath="$PROJECT_DIR$/c/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project1/Project1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project2/Project2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project2/Project2/HelloWorld.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project2/Project2/Project2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project2/Project2/Project2.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/Project2/Project2/Project2.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c/hello.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/c" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lizi-oss&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lizi-oss/game.c.git&quot;,
+    &quot;accountId&quot;: &quot;de7793cd-47a1-4281-80e3-7d9a5cc3bd33&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Bje54YQoM09U5M1QFA3lNyNuWj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/GitHub/game.c",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "应用程序.hello.executor": "Run"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f8a3e8c5-cc1d-4ec6-af90-cc4d3da7dbe6" name="更改" comment="" />
+      <created>1775006719537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775006719537</updated>
+    </task>
+    <task id="LOCAL-00001" summary="捣鼓半天发现是没有变成源代码文件我说我不能这么简单都做&#10;错，有点累了。">
+      <option name="closed" value="true" />
+      <created>1775008254647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775008254647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="捣鼓半天发现是没有变成源代码文件我说我不能这么简单都做&#10;错，有点累了。" />
+    <option name="LAST_COMMIT_MESSAGE" value="捣鼓半天发现是没有变成源代码文件我说我不能这么简单都做&#10;错，有点累了。" />
+  </component>
+</project>
