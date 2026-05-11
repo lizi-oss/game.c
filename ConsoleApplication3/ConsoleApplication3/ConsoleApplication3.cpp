@@ -1,20 +1,39 @@
-﻿// ConsoleApplication3.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+﻿#include<iostream>
+using namespace std;
 
-#include <iostream>
+//static变量的用法
+//声明必须加 static
+//类外定义时，不能再写 static 关键字
+//静态成员函数没有 this 指针，所以不能直接访问非静态成员变量函数
+class person {
+public:
+	static int m_Age;//静态成员变量，属于类，不属于对象，所有对象共享同一份数据
+	const static int MAX_NUM = 100; // 可以类内直接初始化
+	static void func() {
+		//静态成员函数，属于类，不属于对象，所有对象共享同一份函数
+		cout << "静态成员函数" << endl;
+	}
+private:
+	int m_Id;//非静态成员变量，属于对象，每个对象有自己的数据
+};
+int person::m_Age = 0;//静态成员变量必须在类外初始化，且只能初始化一次
 
-int main()
-{
-    std::cout << "Hello World!\n";
+//int person::m_Id = 123456;//静态成员函数，属于类，不属于对象，所有对象共享同一份函数
+void test01() {
+	person p1;//创建第一个对象，静态成员变量m_Age被初始化为0
+	cout << "p1.m_Age = " << p1.m_Age << endl;
+	cout << "p1.MAX_NUM = " << p1.MAX_NUM << endl;
+	p1.func();//通过对象访问静态成员函数，所有对象共享同一份函数，所以p2.func()也可以调用
+	person::func();//通过类名访问静态成员函数，所有对象共享同一份函数，所以p1.func()也可以调用
+	person p2;//创建第二个对象，静态成员变量仍然是0，因为所有对象共享同一份数据
+	p1.m_Age = 10;//通过对象访问静态成员变量，所有对象共享同一份数据，所以p2.m_Age也变成了10
+	//这里会报错：p1.MAX_NUM = 10;因为加上了const修饰，MAX_NUM是一个常量，不能被修改。
+	cout << "p1.m_Age = " << p1.m_Age << endl;
+	cout << "p2.m_Age = " << person::m_Age << endl;
+	cout << "p1.MAX_NUM = " << p1.MAX_NUM << endl;
+	//cout << "p1.m_Id = " << p1.m_Id << endl;//非静态成员变量不能通过对象访问，编译错误
 }
-
-// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
-// 调试程序: F5 或调试 >“开始调试”菜单
-
-// 入门使用技巧: 
-//   1. 使用解决方案资源管理器窗口添加/管理文件
-//   2. 使用团队资源管理器窗口连接到源代码管理
-//   3. 使用输出窗口查看生成输出和其他消息
-//   4. 使用错误列表窗口查看错误
-//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
-//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
+int main() {
+	test01();
+	return 0;
+}
